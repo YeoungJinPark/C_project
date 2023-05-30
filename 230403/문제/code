@@ -1,0 +1,93 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int a=3, b=5;
+	int add=a+b;
+	int mul=a*b;
+	
+	printf("결과: %d, %d\n", add, mul);
+	return 0;
+}
+
+#include <stdio.h>
+
+int main(void)
+{
+	int a, b, r1, r2;
+	
+	printf("입력: ");
+	scanf("%d %d", &a, &b);
+	r1=a+b;
+	r2=a*b;
+	printf("결과: %d, %d\n", r1, r2);
+	return 0;
+}
+
+#include <stdio.h>
+
+int main(void)
+{
+	int a, b, r1, r2;
+	
+	printf("입력: ");
+	scanf("%d %d", &a, &b);
+	r1=a/b;
+	r2=a%b;
+	printf("몫:%d 나머지:%d\n", r1, r2);
+	return 0;
+}
+
+#include <stdio.h>
+
+int main(void)
+{
+	int a, b, result;
+	
+	printf("입력: ");
+	scanf("%d %d", &a, &b);
+	result=a*b;
+	printf("결과: %d\n", result);
+	return 0;
+}
+
+#include <stdio.h>
+
+int main(void)
+{
+	int a, b, c, sum, result;
+	
+	printf("입력: ");
+	scanf("%d %d %d", &a, &b, &c);
+	sum=a+b+c;
+	printf("%d %d\n", sum, sum/3);
+	return 0;
+}
+
+#include <stdio.h>
+
+int main(void)
+{
+	int cm, m;
+	
+	printf("cm입력: ");
+	scanf("%d", &cm);
+	m=cm/100;
+	cm%=100;
+	printf("결과: %d, %d", m, cm);
+	return 0;
+}
+#include <stdio.h>
+
+int main(void)
+{
+	int s, m, h;
+ 	printf("초 입력: ");
+ 	scanf("%d", &s);
+ 	h=s/3600;
+ 	s%=3600;
+ 	m=s/60;
+	s%=60;
+ 	printf("%d %d %d\n", h, m, s);
+ 	return 0;
+}
